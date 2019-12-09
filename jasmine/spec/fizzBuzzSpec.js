@@ -4,6 +4,14 @@ describe("fizzBuzz", function() {
   });
 
   it("should return 'fizz' when given 3", function() {
-    expect(fizzBuzz(3)).toEqual('fizz');
+    expect(fizzBuzz(3)).toEqual('Fizz');
+  });
+
+  it("should return 'buzz' when given 5", function() {
+    expect(fizzBuzz(5)).toEqual('Buzz');
+  });
+
+  it("should return 'FizzBuzz' when given 15", function() {
+    expect(fizzBuzz(15)).toEqual('FizzBuzz');
   });
 });
